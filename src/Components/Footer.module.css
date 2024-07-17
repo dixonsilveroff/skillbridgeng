@@ -1,0 +1,71 @@
+:root {
+   --Neutrals-20: #d6ddeb;
+}
+
+.logo {
+   color: #fff;
+   text-decoration: none;
+   font-size: 1.5rem;
+   font-weight: 600;
+   font-family: "DM Sans";
+   text-align: left;
+   margin-block: 1rem;
+   max-width: 12rem;
+}
+
+.linkStyleContact {
+   text-decoration: none;
+   color: #fff;
+   font-family: "Epilogue";
+   line-height: 2.8rem;
+   font-size: 0.8rem;
+   margin: 0;
+   text-align: left;
+   line-height: 2rem;
+}
+
+.linkStyle {
+   color: var(--Neutrals-20);
+   font-family: Epilogue;
+   font-weight: 400;
+   line-height: 2rem;
+   text-decoration: none;
+}
+
+.linkStyle:hover {
+   color: #fff;
+}
+
+.partnerText {
+   color: var(--Neutrals-20);
+   max-width: 338px;
+   flex-shrink: 0;
+   font-family: Epilogue;
+   font-size: 0.8rem;
+   font-weight: 400;
+   line-height: 1.5rem;
+   text-align: left;
+   margin-bottom: 0.5rem;
+}
+
+.emailInput {
+   color: #000;
+   font-family: 'Epilogue';
+   font-weight: 400;
+   border: 1px solid var(--Neutrals-20);  
+}
+.emailInput::placeholder {
+   color: #A8ADB7;
+}
+
+.emailInputButton {
+   max-width: 8.2rem;
+   padding: 0.75rem 1.5rem;
+   background: #4640DE;
+   color:#FFF;
+   font-family: 'Epilogue';
+   font-weight: 700;
+   line-height: 1.5rem;
+   text-align: center;
+   border: none;
+}
