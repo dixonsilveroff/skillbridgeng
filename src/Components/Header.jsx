@@ -25,24 +25,13 @@ export default function Header() {
                <img src={Logo} alt="logo" />
                SkillBridge
             </a>
-            <nav className="nav navbar navbar-expand-md d-flex justify-content-evenly">
-               <a style={{}}>Home</a>
+            <nav className={styles.navBar}>
+               <a className={styles.linkActive}>Home</a>
                <a className={styles.linkStyle}>Mentorship</a>
                <a className={styles.linkStyle}>Jobs</a>
                <a className={styles.linkStyle}>Courses</a>
                <a className={styles.linkStyle}>Entrepreneurship</a>
-               <a
-                  className="mx-2 text-decoration-none btn"
-                  style={{
-                     padding: "1.125rem 1.5rem",
-                     background: "#4A3AFF",
-                     borderRadius: "0",
-                     color: "white",
-                     fontFamily: "Epilogue",
-                     fontSize: "1rem",
-                     fontWeight: "700",
-                  }}
-               >
+               <a className={styles.navButton}>
                   Sign Up
                </a>
             </nav>

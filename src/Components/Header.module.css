@@ -1,7 +1,66 @@
+* a {
+   text-decoration: none;
+   cursor: default;
+}
+
+* a:hover {
+   transition: all 150ms linear;
+}
+
+.navBar {
+   display: flex;
+   justify-content: space-between;
+   gap: 15px;
+   align-items: center;
+}
 .linkStyle {
    font-size: 1.2rem;
    font-weight: 400;
    font-family: "DM Sans";
    color: #170f49;
    text-decoration: none;
+   cursor: pointer;
+}
+
+.linkStyle:hover {
+   font-weight: 600;
+   color: #170f49;
+}
+
+.linkStyle:nth-child(5)::after {
+   content: "me";
+   margin-left: 5px;
+}
+.navButton {
+   padding: 1.125rem 1.5rem;
+   background: #4a3aff;
+   border-radius: 0;
+   color: white;
+   font-family: "Epilogue";
+   font-size: 1rem;
+   font-weight: 700;
+}
+
+.navButton:hover,:focus {
+   border: 2px solid #4a3aff;
+   color: #4a3aff;
+   background-color: white;
+   cursor: pointer;
+}
+
+.navButton:active {
+   border-radius: 10px;
+}
+
+.linkActive {
+   color: #4640de;
+   font-family: "DM Sans";
+   font-weight: 700;
+   font-size: 1.2rem;
+}
+
+@media screen and (max-width: 567px) {
+   .linkStyle {
+      font-weight: bolder;
+   }
 }

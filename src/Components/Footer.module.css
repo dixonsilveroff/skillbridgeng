@@ -1,3 +1,14 @@
+* a {
+   text-decoration: none;
+   cursor: default;
+}
+
+* a:hover {
+   color: initial;
+   transition: all 150ms linear;
+   cursor: pointer;
+}
+
 :root {
    --Neutrals-20: #d6ddeb;
 }
@@ -34,6 +45,7 @@
 
 .linkStyle:hover {
    color: #fff;
+   transition: none;
 }
 
 .partnerText {
@@ -68,4 +80,16 @@
    line-height: 1.5rem;
    text-align: center;
    border: none;
+}
+
+.emailInputButton:hover,:focus {
+   border: 2px solid #4a3aff;
+   color: #4a3aff;
+   background-color: white;
+   cursor: pointer;
+   transition: all 150ms linear;
+}
+
+.emailInputButton:active {
+   border-radius: 10px;
 }

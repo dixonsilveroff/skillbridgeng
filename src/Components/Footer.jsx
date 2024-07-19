@@ -130,11 +130,11 @@ export default function Footer() {
             <div className="d-flex justify-content-between">
                <p style={{color: "#d6ddeb", fontFamily: "Epilogue", fontWeight: "500"}}>2024@SkillBridge. All rights reserved.</p>
                <figure className="d-flex justify-content-between" style={{maxHeight: "2rem", maxWidth: "18rem", gap: "30px"}}>
-                  <a target="_blank" href="https://facebook.com"><img width="32px" src="public/images/Facebook-white.svg" alt="facebook logo" /></a>
-                  <a target="_blank" href="https://instagram.com"><img width="32px" src="public/images/Instagram-white.svg" alt="instagram logo" /></a>
-                  <a target="_blank" href="https://dribbble.com"><img width="32px" src="public/images/Dribbble-white.svg" alt="dribble logo" /></a>
-                  <a target="_blank" href="https://linkedin.com"><img width="32px" src="public/images/LinkedIn-white.svg" alt="linkedin logo" /></a>
-                  <a target="_blank" href="https://x.com"><img width="32px" src="public/images/Twitter-white.svg" alt="twitter logo" /></a>
+                  <a target="_blank" href="https://facebook.com"><img width="32px" src="./images/Facebook-white.svg" alt="facebook logo" /></a>
+                  <a target="_blank" href="https://instagram.com"><img width="32px" src="./images/Instagram-white.svg" alt="instagram logo" /></a>
+                  <a target="_blank" href="https://dribbble.com"><img width="32px" src="./images/Dribbble-white.svg" alt="dribbble logo" /></a>
+                  <a target="_blank" href="https://linkedin.com"><img width="32px" src="./images/LinkedIn-white.svg" alt="linkedin logo" /></a>
+                  <a target="_blank" href="https://x.com"><img width="32px" src="./images/Twitter-white.svg" alt="twitter logo" /></a>
                </figure>
             </div>
          </div>
